@@ -16,7 +16,8 @@ function one(){
 
 const buttonTwo = document.querySelector('#button-two');
 buttonTwo.addEventListener('click', (e) => {
-	document.querySelector('#button-two').style.background = '#9fe6a0';
+	//document.querySelector('#button-two').style.background = '#9fe6a0';
+	document.querySelector('#button-two').style.background = '#000';
 	document.getElementById('text').textContent = 'On Amazon Prime';
 	document.getElementById('body').style.background = '#000';
 })
